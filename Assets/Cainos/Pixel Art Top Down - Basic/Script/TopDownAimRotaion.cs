@@ -3,9 +3,6 @@ using UnityEngine;
 
 public class TopDownAimRotaion : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer armRenderer;
-    [SerializeField] private Transform armPivot;
-
     [SerializeField] private SpriteRenderer characterRenderer;
 
     private TopDownController controller;
@@ -30,6 +27,5 @@ public class TopDownAimRotaion : MonoBehaviour
         float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf .Rad2Deg;
 
         characterRenderer.flipX = Mathf.Abs(rotZ) > 90f;
-        armPivot.rotation = Quaternion.Euler(0,0, rotZ);
     }
 }

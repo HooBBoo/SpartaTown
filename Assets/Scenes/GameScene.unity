@@ -20733,12 +20733,12 @@ PrefabInstance:
     - target: {fileID: 35911866599717887, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
       propertyPath: m_NotificationBehavior
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1867938848386926549, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
       propertyPath: m_NotificationBehavior
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2850232983651763105, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
@@ -20755,30 +20755,10 @@ PrefabInstance:
       propertyPath: nameInput
       value: 
       objectReference: {fileID: 1199072308}
-    - target: {fileID: 3419137516273765500, guid: 4fcc8194da099034b823dd13da557a98,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4722194053533846329, guid: 4fcc8194da099034b823dd13da557a98,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797104231480455497, guid: 4fcc8194da099034b823dd13da557a98,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797104231480455497, guid: 4fcc8194da099034b823dd13da557a98,
-        type: 3}
-      propertyPath: m_NotificationBehavior
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5875505409519852521, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
       propertyPath: m_NotificationBehavior
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6823551353950872360, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
