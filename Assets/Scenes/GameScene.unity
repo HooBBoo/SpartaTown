@@ -19634,7 +19634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19653,7 +19653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d0e62721e731a47916713e45e4ef50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1841634558}
+  target1: {fileID: 1084112557}
+  target2: {fileID: 1084112560}
+  target3: {fileID: 1084112559}
 --- !u!1001 &604758322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20728,6 +20730,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 35911866599717887, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867938848386926549, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2850232983651763105, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
       propertyPath: nameInput
@@ -20743,6 +20755,31 @@ PrefabInstance:
       propertyPath: nameInput
       value: 
       objectReference: {fileID: 1199072308}
+    - target: {fileID: 3419137516273765500, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4722194053533846329, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797104231480455497, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797104231480455497, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875505409519852521, guid: 4fcc8194da099034b823dd13da557a98,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6823551353950872360, guid: 4fcc8194da099034b823dd13da557a98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20809,9 +20846,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1084112555}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1084112557 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8866819378693665908, guid: 4fcc8194da099034b823dd13da557a98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1084112555}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1084112558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7809627115452221834, guid: 4fcc8194da099034b823dd13da557a98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1084112555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1084112559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5085524064967830646, guid: 4fcc8194da099034b823dd13da557a98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1084112555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1084112560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5449207511815674845, guid: 4fcc8194da099034b823dd13da557a98,
     type: 3}
   m_PrefabInstance: {fileID: 1084112555}
   m_PrefabAsset: {fileID: 0}
@@ -25629,12 +25684,6 @@ Transform:
 --- !u!1 &1841634550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3204907702891195622, guid: 4fcc8194da099034b823dd13da557a98,
-    type: 3}
-  m_PrefabInstance: {fileID: 1084112555}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1841634558 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6823551353950872360, guid: 4fcc8194da099034b823dd13da557a98,
     type: 3}
   m_PrefabInstance: {fileID: 1084112555}
   m_PrefabAsset: {fileID: 0}
