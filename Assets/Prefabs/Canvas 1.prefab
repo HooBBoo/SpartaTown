@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.9490196, b: 0.8745098, a: 0.6392157}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 2785609393719285916}
   - component: {fileID: 7496460243741696114}
   - component: {fileID: 5189557134298416851}
-  - component: {fileID: 8494806343419293666}
   m_Layer: 5
   m_Name: Canvas 1
   m_TagString: Untagged
@@ -396,23 +395,6 @@ MonoBehaviour:
   Character2Btn: {fileID: 6767876140976983488}
   Character3Btn: {fileID: 2551717358773169860}
   PlayerPrefab: {fileID: 0}
---- !u!114 &8494806343419293666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2821885708525347973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3680e2f2f2ae94c963c4731240d04e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartScenePanel: {fileID: 5173880641733722684}
-  SetupPanel: {fileID: 4166579539718583513}
-  PlayerSetupButton: {fileID: 6941405550143809984}
-  DoneButton: {fileID: 2452335157016180040}
-  StartButton: {fileID: 314045165152344583}
 --- !u!1 &5173880641733722684
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,18 +867,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 123863589512869459}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2452335157016180040 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2571692355172320027, guid: a7e3d10bbfe49e14886773b84da27a1c,
-    type: 3}
-  m_PrefabInstance: {fileID: 123863589512869459}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2551717358773169860 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2508936191414081687, guid: a7e3d10bbfe49e14886773b84da27a1c,
@@ -921,12 +891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &4166579539718583513 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4065245521283039882, guid: a7e3d10bbfe49e14886773b84da27a1c,
-    type: 3}
-  m_PrefabInstance: {fileID: 123863589512869459}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6767876140976983488 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6653046149903203219, guid: a7e3d10bbfe49e14886773b84da27a1c,
